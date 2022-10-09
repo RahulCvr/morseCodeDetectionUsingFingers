@@ -33,7 +33,7 @@ It tries to capture the **Morse code** pattern and detect the character based on
 - If you open **Four fingers** it is to add space between characters.
 
 ## How I built it
-It is a two-step process. First, I built a [model to detect no of fingers opened] (https://github.com/RahulCvr/Morse-code-with-fingers/blob/master/finger_detection.py) by using TensorFlow 2.0 and a dataset called [Fingers](https://www.kaggle.com/koryakinp/fingers) from kaggle.
+It is a two-step process. First, I built a [model to detect no of fingers opened] (https://github.com/RahulCvr/morseCodeDetectionUsingFingers/blob/main/finger_detection.py) by using TensorFlow 2.0 and a dataset called [Fingers](https://www.kaggle.com/koryakinp/fingers) from kaggle.
 
 The second step is to generate the morse code. Here the first step is to detect the hand in the video and the next step is to take that and predict how many fingers are opened using the pre-trained model which is generated from the first step. 
 
